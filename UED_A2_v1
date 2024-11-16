@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sunshine Primary School</title>
+    <title>Sunshine School</title>
 
     <!-- Linking Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap" rel="stylesheet">
@@ -108,7 +108,7 @@
 
     <!-- Header -->
     <header class="header">
-        <h1>Sunshine Primary School</h1>
+        <h1>Sunshine School</h1>
         <p>Where young minds grow brighter every day.</p>
         <nav class="navbar">
             <ul>
@@ -138,7 +138,9 @@
     <!-- About Section -->
     <section id="about" class="section">
         <h2>About Us</h2>
-        <p>We are dedicated to providing an inspiring educational experience that helps students reach their full potential. Our core values focus on integrity, creativity, and excellence in every endeavor.</p>
+        <p>At Sunshine School, we are committed to inspiring a love for learning in every student. Established with the mission of creating a vibrant, inclusive community, we emphasize academic excellence, creativity, and character development.</p>
+        <p>Our programs are designed to nurture critical thinking, problem-solving, and teamwork skills, preparing students for success in the modern world. From our state-of-the-art classrooms to our engaging extracurricular activities, Sunshine School offers a well-rounded education for all ages.</p>
+        <p>Core values like respect, integrity, and compassion guide everything we do, ensuring a positive and supportive environment for every child. Join us as we work together to build a brighter future, one student at a time.</p>
         <img src="https://via.placeholder.com/600x300?text=Learning+In+Progress" alt="Students in a learning session">
     </section>
 
@@ -177,3 +179,4 @@
 
 </body>
 </html>
+
