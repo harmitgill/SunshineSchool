@@ -25,6 +25,12 @@
             padding: 2.5rem;
         }
 
+        .header img {
+            width: 100px;
+            border-radius: 50%; /* Rounded image */
+            margin-bottom: 1rem;
+        }
+
         /* Navbar */
         .navbar ul {
             list-style: none;
@@ -89,6 +95,18 @@
             text-align: center;
         }
 
+        .section img {
+            max-width: 80%;
+            border-radius: 5px;
+            margin: 1rem auto;
+        }
+
+        .section p {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: justify;
+        }
+
         /* Form Styling */
         form {
             display: flex;
@@ -130,6 +148,11 @@
             padding: 1.5rem;
         }
 
+        .footer img {
+            width: 40px;
+            margin: 0 10px;
+        }
+
         @media (max-width: 768px) {
             .navbar ul {
                 flex-direction: column;
@@ -141,8 +164,9 @@
 
     <!-- Header -->
     <header class="header">
+        <img src="https://via.placeholder.com/100" alt="Sunshine School Logo">
         <h1>Sunshine School</h1>
-        <p>Where young minds grow brighter every day.</p>
+        <p>Building brighter futures through education, creativity, and care.</p>
         <nav class="navbar">
             <ul>
                 <li><a href="#home">Home</a></li>
@@ -164,24 +188,29 @@
     <!-- Home Section -->
     <section id="home" class="section">
         <h2>Welcome to Sunshine School!</h2>
-        <p>Sunshine School fosters a nurturing, creative, and stimulating learning environment for children to thrive academically and personally.</p>
+        <p>Our school is dedicated to creating a nurturing and dynamic learning environment. We combine innovation, creativity, and traditional values to empower our students to excel academically, socially, and emotionally.</p>
+        <img src="https://via.placeholder.com/800x400?text=Sunshine+School+Campus" alt="Sunshine School Campus">
     </section>
 
     <!-- About Section -->
     <section id="about" class="section">
         <h2>About Us</h2>
-        <p>At Sunshine School, we inspire a love for learning through innovative teaching methods and a supportive environment.</p>
+        <p>Sunshine School is a vibrant educational institution that values diversity, creativity, and excellence. Our dedicated staff fosters an inclusive and supportive atmosphere where students can reach their full potential. We provide a well-rounded curriculum that balances academics with arts, sports, and technology to cultivate lifelong learners.</p>
+        <img src="https://via.placeholder.com/600x300?text=Classroom+Environment" alt="Students in Class">
     </section>
 
     <!-- Gallery Section -->
     <section id="gallery" class="section">
         <h2>Gallery</h2>
-        <p>Explore snapshots of our vibrant community and exciting activities.</p>
+        <p>Take a glimpse into our enriching school life. From engaging classroom activities to exciting extracurricular events, our gallery captures the vibrant spirit of Sunshine School.</p>
+        <img src="https://via.placeholder.com/600x300?text=Art+Activity" alt="Art Activity">
+        <img src="https://via.placeholder.com/600x300?text=Science+Fair" alt="Science Fair">
     </section>
 
     <!-- Contact Section -->
     <section id="contact" class="section">
         <h2>Contact Us</h2>
+        <p>We'd love to hear from you! If you have any questions or need further information, feel free to reach out to us using the form below.</p>
         <form id="contactForm">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" placeholder="Your Name" required>
@@ -203,8 +232,10 @@
     <!-- Footer -->
     <footer class="footer">
         <p>&copy; 2024 Sunshine School. Building bright futures!</p>
+        <img src="https://via.placeholder.com/40?text=FB" alt="Facebook">
+        <img src="https://via.placeholder.com/40?text=TW" alt="Twitter">
+        <img src="https://via.placeholder.com/40?text=IG" alt="Instagram">
     </footer>
 
 </body>
 </html>
-
