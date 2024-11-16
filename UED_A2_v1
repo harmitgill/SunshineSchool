@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunshine Primary School</title>
+
+    <!-- Linking Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <style>
+        /* Base Styles */
+        body {
+            font-family: 'Nunito', sans-serif;
+            background-color: #FFF9F4; /* Soft cream background */
+            color: #5A5A5A; /* Neutral grey text */
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Header */
+        .header {
+            background-color: #FFEDD5; /* Soft peach */
+            color: #333;
+            text-align: center;
+            padding: 2.5rem;
+        }
+
+        /* Navbar */
+        .navbar ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 1.2rem;
+        }
+
+        .navbar a {
+            color: #333;
+            text-decoration: none;
+            padding: 0.5rem 1.2rem;
+            border-radius: 8px;
+            transition: background-color 0.3s;
+        }
+
+        .navbar a:hover {
+            background-color: #FFD6A5; /* Light orange */
+            color: #FFF;
+        }
+
+        /* Sections */
+        .section {
+            padding: 3rem 1.5rem;
+            text-align: center;
+        }
+
+        .section h2 {
+            font-size: 2.2rem;
+            margin-bottom: 1.5rem;
+            color: #4A6572; /* Cool grey-blue */
+        }
+
+        .section p {
+            font-size: 1.1rem;
+            margin: 0.8rem 0;
+        }
+
+        .section img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin: 1rem 0;
+        }
+
+        /* Buttons */
+        button {
+            background-color: #FFABAB; /* Soft pink */
+            color: #FFF;
+            border: none;
+            padding: 0.7rem 1.5rem;
+            font-size: 1rem;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #FF7F7F; /* Vibrant coral */
+        }
+
+        /* Footer */
+        .footer {
+            background-color: #FFD6E0; /* Pastel pink */
+            color: #4A4A4A;
+            text-align: center;
+            padding: 1.5rem;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 768px) {
+            .navbar ul {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <h1>Sunshine Primary School</h1>
+        <p>Where young minds grow brighter every day.</p>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li class="dropdown">
+                    <a href="#academics">Academics</a>
+                    <div class="dropdown-content">
+                        <a href="#primary">Primary</a>
+                        <a href="#middle">Middle School</a>
+                        <a href="#high">High School</a>
+                    </div>
+                </li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="section">
+        <h2>Welcome to Sunshine School!</h2>
+        <p>Sunshine School fosters a nurturing, creative, and stimulating learning environment for children to thrive academically and personally.</p>
+        <img src="https://via.placeholder.com/600x300?text=Welcome+to+Our+School" alt="Welcome to our school">
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2>About Us</h2>
+        <p>We are dedicated to providing an inspiring educational experience that helps students reach their full potential. Our core values focus on integrity, creativity, and excellence in every endeavor.</p>
+        <img src="https://via.placeholder.com/600x300?text=Learning+In+Progress" alt="Students in a learning session">
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="section">
+        <h2>Our Gallery</h2>
+        <p>See highlights from our vibrant school community, where every day is an opportunity to learn, play, and grow together.</p>
+        <img src="https://via.placeholder.com/600x300?text=Art+Classes" alt="Art Classes">
+        <img src="https://via.placeholder.com/600x300?text=Science+Fair" alt="Science Fair">
+        <img src="https://via.placeholder.com/600x300?text=Sports+Day" alt="Sports Day">
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2>Contact Us</h2>
+        <p>Have questions? We’d love to hear from you! Feel free to send us a message or visit us in person for a tour.</p>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+        <p id="formResponse" class="form-response"></p>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 Sunshine School. Bringing light to learning!</p>
+    </footer>
+
+</body>
+</html>
